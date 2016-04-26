@@ -8,8 +8,8 @@ add wave -noupdate /mux4_1_testbench/sel0
 add wave -noupdate /mux4_1_testbench/sel1
 add wave -noupdate /mux4_1_testbench/out
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {252 ps} 0}
-quietly wave cursor active 1
+WaveRestoreCursors {{Cursor 1} {0 ps} 0}
+quietly wave cursor active 0
 configure wave -namecolwidth 150
 configure wave -valuecolwidth 100
 configure wave -justifyvalue left

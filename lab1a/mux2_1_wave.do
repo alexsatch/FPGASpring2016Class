@@ -5,10 +5,10 @@ add wave -noupdate /mux2_1_testbench/i1
 add wave -noupdate /mux2_1_testbench/sel
 add wave -noupdate /mux2_1_testbench/out
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {0 ps} 0}
+WaveRestoreCursors {{Cursor 1} {16 ps} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 150
-configure wave -valuecolwidth 100
+configure wave -valuecolwidth 87
 configure wave -justifyvalue left
 configure wave -signalnamewidth 1
 configure wave -snapdistance 10
