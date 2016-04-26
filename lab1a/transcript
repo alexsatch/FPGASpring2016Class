@@ -1,0 +1,59 @@
+# Reading C:/dev/fpga/tools/quartus/altera/14.0/modelsim_ase/tcl/vsim/pref.tcl 
+do runlab.dor
+# Cannot open macro file: runlab.dor
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_testbench
+# 
+# Top level modules:
+# 	mux4_1_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps mux4_1_testbench 
+# Loading sv_std.std
+# Loading work.mux4_1_testbench
+# Loading work.mux4_1
+# Loading work.mux2_1
+# ** Error: Cannot open macro file: mux4_1_wave.do
+# Error in macro ./runlab.do line 19
+# Cannot open macro file: mux4_1_wave.do
+#     while executing
+# "do mux4_1_wave.do"
+add wave -position end  sim:/mux4_1_testbench/i00
+add wave -position end  sim:/mux4_1_testbench/i01
+add wave -position end  sim:/mux4_1_testbench/i10
+add wave -position end  sim:/mux4_1_testbench/i11
+add wave -position end  sim:/mux4_1_testbench/sel0
+add wave -position end  sim:/mux4_1_testbench/sel1
+add wave -position end  sim:/mux4_1_testbench/out
+write format wave -window .main_pane.wave.interior.cs.body.pw.wf C:/dev/github/fpga/FPGASpring2016Class/lab1a/mux4_1_wave.do
+do runlab.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# 
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux2_1
+# -- Compiling module mux2_1_testbench
+# 
+# Top level modules:
+# 	mux2_1_testbench
+# Model Technology ModelSim ALTERA vlog 10.1e Compiler 2013.06 Jun 12 2013
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_testbench
+# 
+# Top level modules:
+# 	mux4_1_testbench
+# vsim -lib work -voptargs=\"+acc\" -t 1ps mux4_1_testbench 
+# Loading sv_std.std
+# Loading work.mux4_1_testbench
+# Loading work.mux4_1
+# Loading work.mux2_1
+# .main_pane.wave.interior.cs.body.pw.wf
+# .main_pane.structure.interior.cs.body.struct
+# .main_pane.objects.interior.cs.body.tree
